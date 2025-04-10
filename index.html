@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>YouTube clone</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+
+          <!-- Left section -->
+        <div class="left-section">
+        <i class="material-icons logo" onClick="togglleMenu()">menu</i>
+        <img src="images/Youtube-logo-dark-grey-png.png" alt="YouTube logo">
+
+        <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle Dark Mode">
+            <i class="material-icons">dark_mode</i>
+          </button>
+    </div>
+        <!-- Middle section with search and mic -->
+    <div class="mid-section">
+        <form action="">
+        <input type="text" placeholder="Search" aria-label="Search input">
+        <button type="submit" aria-label="Search button">
+        <i class="material-icons">search</i>
+    </button>
+            <button type="button" class="mic-btn" aria-label="Voice search">
+            <i class="material-icons mic">mic</i>
+            </button>
+        </div>
+    </form>
+</div>
+        <!-- Right section with icons -->
+<div class="right-section">
+        <a href="#"><i class="material-icons">video_call</i></a>
+        <a href="#"><i class="material-icons">apps</i></a>
+        <a href="#"><i class="material-icons">notifications</i></a>
+        <a href="#"><i class="material-icons">account_circle</i></a>
+        </div>
+
+          
+    </header>
+    <!-- End Header -->
+     <!-- Start Content-area -->
+    <div class="content-area">
+        <aside>
+            <nav>
+                <a h ref="" class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span id="active-span">Home</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">ondemand_video</i>
+                    <span>Originals</span>
+                </a>
+                <hr>
+                <a href="" class="nav-link">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">smart_display</i>
+                    <span>Your Videos</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch later</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">download</i>
+                    <span>Downloads</span>
+                </a>
+
+                <a href="" class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked videos</span>
+                </a>
+                <hr>
+                <p>Subscriptions</p>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/jklkl.jpeg">
+                    <span>Zero Web School</span>
+                </a>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/Group 1000002867.jpg">
+                    <span>Codezilla Courses</span>
+                </a>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/1560870259043.jpeg">
+                    <span>اكاديمية ترميز</span>
+                </a>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/يحيى عزام-بيت الكتب.jpg">
+                    <span>يحيى عزام- يايا</span>
+                </a>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/khh.jpeg">
+                    <span>الاسطي عبدو البلف</span>
+                </a>
+                <a href="" class="nav-link">
+                    <img class="channel-img" src="images/channels4_profile.jpg">
+                    <span>Saba7o Korah - صباحو كورة</span>
+                </a>
+            </nav>
+        </aside>
+             <!-- End Content-area -->
+              <!-- Start Main -->
+<main>
+                            <div class="videos-container">
+                                <!-- 1 -->
+                            <div class="video">
+                            <div class="thumbnail">
+                            <img src="images/hq720.jpg">
+                        </div>
+                            <div class="video-details">
+                            <div class="creator-img">
+                                <img src="images/3822745.jpeg">
+                        </div>
+                        <div class="title">
+                              <a href="" class="video-title">
+                                ماهو أفضل استضافة؟
+                                </a>
+                                <a href="" class="video-creator">
+                                    Osama Mohamed
+                            </a>
+                            <span>5M Views ● 3 Week Ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                        <!-- 2 -->
+                <div class="video">
+                    <div class="thumbnail">
+                    <img src="images/maxresdefault (6).jpg">
+                </div>
+                    <div class="video-details">
+                    <div class="creator-img">
+                        <img src="images/khh.jpeg">
+                </div>
+                <div class="title">
+                      <a href="" class="video-title">
+                        تحدي ٣ x ١ | اسئلة عبثية عن كرة القدم ⚽️🔔 | الاسطي عبده البلف و اياد الموجي 👾🚨</a>
+                        <a href="" class="video-creator">
+                            الاسطى عبدو البلف
+                    </a>
+                    <span>2M Views ● 7 Months Ago</span>
+                </div>
+            </div>
+        </div>
+
+                    <!-- 3 -->
+        <div class="video">
+            <div class="thumbnail">
+            <img src="images/maxresdefault (7).jpg">
+        </div>
+            <div class="video-details">
+            <div class="creator-img">
+                <img src="images/channels4_profile.jpg">
+        </div>
+        <div class="title">
+              <a href="" class="video-title">
+                نصوحي ومرعي ضد فريق الإعداد🔥!! | هل يتفوق الطالب على الأستاذ؟ صباحو تحدي معلومات كرة القدم </a>
+                <a href="" class="video-creator">
+                    Saba7o Korah - صباحو كورة
+                </a>
+            <span>5M Views ● 3 Months Ago</span>
+        </div>
+    </div>
+</div>
+                    <!-- 4 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/EqjoR4TXEAYx1Ng.jpeg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/1560870259043.jpeg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        Yarob | يعرُب 💻 on X: "يوم استثنائي في ختام عام 2024 الاستثنائي بلا شك.. أشارككم فيه وصول أكاديمية ترميز ل 100 ألف </a>
+        <a href="" class="video-creator">
+            Yarob | يعرُب
+    </a>
+    <span>1.5M Views ● 1 Day Ago</span>
+</div>
+</div>
+</div>
+                    <!-- 5 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/hq720 (1).jpg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/Group 1000002867.jpg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        الكلية مهمة وكورس البرمجة ده مش هتشتغل بعده والشهادة بتفرق!</a>
+        <a href="" class="video-creator">
+            Codezilla Courses
+    </a>
+    <span>8M Views ● 5 Day's Ago</span>
+</div>
+</div>
+</div>
+                    <!-- 6 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/hq720 (2).jpg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/Group 1000002867.jpg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        الخطايا العشر للمبرمجين المبتدئين - سلسلة تعلم كيف تتعلم البرمجة</a>
+        <a href="" class="video-creator">
+            Codezilla Courses
+    </a>
+    <span>750K Views ● 2 Months Ago</span>
+</div>
+</div>
+</div>
+                    <!-- 7 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/maxresdefault (11).jpg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/يحيى عزام-بيت الكتب.jpg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        قصة مهم تسمعها عن البدايات و الكورة | مش بودكاست مع يحيى عزام </a>
+        <a href="" class="video-creator">
+            يحيى عزام-يايا
+    </a>
+    <span>3M Views ● 4 Day's Ago</span>
+</div>
+</div>
+</div>
+                    <!-- 8 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/maxresdefault.jpg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/3822745.jpeg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        المش مهندس أسامة الزيرو</a>
+        <a href="" class="video-creator">
+            Osama Mohamed
+    </a>
+    <span>2.5M Views ● 1 Month Ago</span>
+</div>
+</div>
+</div>
+                    <!-- 9 -->
+<div class="video">
+    <div class="thumbnail">
+    <img src="images/maxresdefault (12).jpg">
+</div>
+    <div class="video-details">
+    <div class="creator-img">
+        <img src="images/يحيى عزام-بيت الكتب.jpg">
+</div>
+<div class="title">
+      <a href="" class="video-title">
+        ازاي نشرت روايتي الأولى بعد ما اترفضت زمان لإني مكنتش مشهور || قصة مش مهم تسمعها</a>
+        <a href="" class="video-creator">
+            يحيى عزام-يايا
+    </a>
+    <span>1M Views ● 3 Months Ago</span>
+</div>
+</div>
+</div>
+            </div>
+        </main>
+    </div>
+    <!-- End Main -->
+
+<!-- Java-Script -->
+    <script src="main.js"></script>
+    <script>
+        const toggleBtn = document.getElementById('darkModeToggle');
+      
+        toggleBtn.addEventListener('click', () => {
+          document.body.classList.toggle('dark');
+      
+          // لو حابب تحفظ الاختيار في localStorage
+          if (document.body.classList.contains('dark')) {
+            localStorage.setItem('theme', 'dark');
+          } else {
+            localStorage.setItem('theme', 'light');
+          }
+        });
+      
+        // تفقد الثيم المخزن وتفعيله تلقائياً
+        window.addEventListener('DOMContentLoaded', () => {
+          const savedTheme = localStorage.getItem('theme');
+          if (savedTheme === 'dark') {
+            document.body.classList.add('dark');
+          }
+        });
+      </script>
+      
+</body>
+</html>
